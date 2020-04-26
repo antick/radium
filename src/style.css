@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply font-slash; }
+header { @apply mx-auto py-4 pb-0; }
+.logo { @apply flex-1 block text-center text-3xl uppercase font-bold text-gray-800; }
+.nav-link { @apply ml-10 text-sm uppercase text-gray-500 font-semibold; }
+a.nav-link:hover { @apply text-gray-400; }
+.slider-image { height: 36rem; }
+.section-header { @apply flex flex-row pt-6 border-b border-gray-400; }
+.section-header-title { @apply text-2xl font-semibold border-b border-teal-900 pb-3; }
+.section-content { @apply flex flex-wrap pt-6 overflow-hidden; }
+.card-height { height: 280px; }
+.card2-height { height: 560px; }
+.section-card-content { @apply flex flex-1 border border-gray-300 rounded; }
+.section-image { @apply bg-cover w-1/2; }
+.post-signature { @apply flex p-4 absolute bottom-0; }
+.post-bookmark { @apply flex p-6 absolute bottom-0 right-0; }

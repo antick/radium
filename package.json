@@ -1,0 +1,17 @@
+{
+  "name": "radium",
+  "version": "0.1.0",
+  "description": "Radium theme powered by Tailwind",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwind build src/style.css -o build/style.css",
+    "watch": "postcss src/style.css -o build/style.css --watch"
+  },
+  "author": "Pankaj Sanam <pankaj.sanam@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.3.5"
+  }
+}
