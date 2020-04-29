@@ -6,8 +6,15 @@ An HTML template inspired by Medium and powered by Tailwind css.
 
 [radium]: https://slashism.com/wp-content/uploads/2020/04/radium.png "Radium Theme"
 
+## Pages
+
+1. Home Page
+2. Search Page
+3. Category Page
+4. Page 2
+
 ## Current Release
-0.1.0
+0.2.0
 
 ## Status
 Work In Progress
