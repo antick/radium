@@ -8,8 +8,6 @@ header { @apply mx-auto py-4 pb-0; }
 .nav-link { @apply ml-10 text-sm uppercase text-gray-500 font-semibold; }
 a.nav-link:hover { @apply text-gray-400; }
 .slider-image { height: 36rem; }
-.section-header { @apply flex flex-row pt-6 border-b border-gray-400; }
-.section-header-title { @apply text-2xl font-semibold border-b border-teal-900 pb-3; }
 .section-content { @apply flex flex-wrap pt-6 overflow-hidden; }
 .card-height { height: 280px; }
 .card2-height { height: 560px; }
