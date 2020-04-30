@@ -14985,6 +14985,9 @@ a.nav-link:hover { color: #cbd5e0;
 .card2-height { height: 560px;
 }
 
+.card3-height { height: 380px;
+}
+
 .section-card-content { display: flex; flex: 1 1 0%; border-width: 1px; border-color: #e2e8f0; border-radius: 0.25rem;
 }
 

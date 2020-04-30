@@ -10,6 +10,7 @@ This is still under heavy development.
 3. Search Page
 4. Category Page
 5. Contact Page
+6. Author Profile Page
 
 ## Current Release
 0.2.0 (Work In Progress)
