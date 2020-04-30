@@ -13,7 +13,7 @@ This is still under heavy development.
 6. Author Profile Page
 
 ## Current Release
-0.2.0 (Work In Progress)
+0.3.0 (Work In Progress)
 
 ![alt text][radium]
 
