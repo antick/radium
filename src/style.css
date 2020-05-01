@@ -16,3 +16,4 @@ a.nav-link:hover { @apply text-gray-400; }
 .section-image { @apply bg-cover w-1/2; }
 .post-signature { @apply flex p-4 absolute bottom-0; }
 .post-bookmark { @apply flex p-6 absolute bottom-0 right-0; }
+.full-align { margin-left: calc(51% - 50vw); margin-right: calc(51% - 50vw); width: auto; max-width: 1000%; }

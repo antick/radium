@@ -4633,6 +4633,10 @@ video {
   font-family: Ubuntu, Gotham Book, Source Sans Pro, DejaVu Sans Mono, sans-serif;
 }
 
+.font-writing {
+  font-family: FreeSerif, sans-serif;
+}
+
 .font-hairline {
   font-weight: 100;
 }
@@ -15000,6 +15004,9 @@ a.nav-link:hover { color: #cbd5e0;
 .post-bookmark { display: flex; padding: 1.5rem; position: absolute; bottom: 0; right: 0;
 }
 
+.full-align { margin-left: calc(51% - 50vw); margin-right: calc(51% - 50vw); width: auto; max-width: 1000%;
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
@@ -19005,6 +19012,10 @@ a.nav-link:hover { color: #cbd5e0;
 
   .sm\:font-slash {
     font-family: Ubuntu, Gotham Book, Source Sans Pro, DejaVu Sans Mono, sans-serif;
+  }
+
+  .sm\:font-writing {
+    font-family: FreeSerif, sans-serif;
   }
 
   .sm\:font-hairline {
@@ -33340,6 +33351,10 @@ a.nav-link:hover { color: #cbd5e0;
     font-family: Ubuntu, Gotham Book, Source Sans Pro, DejaVu Sans Mono, sans-serif;
   }
 
+  .md\:font-writing {
+    font-family: FreeSerif, sans-serif;
+  }
+
   .md\:font-hairline {
     font-weight: 100;
   }
@@ -47673,6 +47688,10 @@ a.nav-link:hover { color: #cbd5e0;
     font-family: Ubuntu, Gotham Book, Source Sans Pro, DejaVu Sans Mono, sans-serif;
   }
 
+  .lg\:font-writing {
+    font-family: FreeSerif, sans-serif;
+  }
+
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -62004,6 +62023,10 @@ a.nav-link:hover { color: #cbd5e0;
 
   .xl\:font-slash {
     font-family: Ubuntu, Gotham Book, Source Sans Pro, DejaVu Sans Mono, sans-serif;
+  }
+
+  .xl\:font-writing {
+    font-family: FreeSerif, sans-serif;
   }
 
   .xl\:font-hairline {
