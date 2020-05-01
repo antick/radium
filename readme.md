@@ -11,6 +11,7 @@ This is still under heavy development.
 4. Category Page
 5. Contact Page
 6. Author Profile Page
+7. Post Detail Page
 
 ## Current Release
 0.4.0 (Work In Progress)
