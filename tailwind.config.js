@@ -6,9 +6,17 @@ module.exports = {
     },
     container: {
       center: true,
-      padding: '5rem'
+      padding: {
+        default: '5rem',
+        sm: '0',
+        md: '1rem',
+        lg: '5rem',
+        xl: '5rem',
+      }
     },
   },
-  variants: {},
+  variants: {
+    backgroundColor: ['responsive', 'hover', 'focus', 'active'],
+  },
   plugins: [],
 }

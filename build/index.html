@@ -10,8 +10,8 @@
 <body>
   <header class="container">
     <!-- Header Logo -->
-    <div class="flex flex-row justify-center items-center content-center">
-      <div class="flex flex-1">
+    <div class="flex items-center">
+      <div class="hidden md:flex md:flex-1">
         <a class="flex border border-teal-400 bg-transparent px-3 py-1 rounded-full">
           <svg class="w-3 fill-current text-teal-500" viewBox="0 0 512 512">
             <path d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"/>
@@ -35,10 +35,10 @@
         <a href="./">Radium - 0.5.0</a>
       </div>
 
-      <div class="flex flex-1 justify-end">
+      <div class="hidden md:flex md:flex-1 md:justify-end">
         <form class="flex" method="get" action="search.html" role="search">
           <label class="flex">
-            <input class="border rounded-l-md p-2 text-sm" type="text" name="s" placeholder="Search...">
+            <input class="border rounded-l-md p-2 text-sm focus:outline-none focus:border-teal-500" type="text" name="s" placeholder="Search...">
           </label>
           <button type="submit" class="flex p-3 bg-teal-500">
             <svg class="w-4 fill-current text-white" viewBox="0 0 24 24">
@@ -47,9 +47,17 @@
           </button>
         </form>
       </div>
+
+      <div class="md:hidden flex flex-1 justify-end">
+        <button type="button" class="text-gray-700 hover:text-gray-800 focus:text-gray-800 focus:outline-none">
+          <svg class="w-8 fill-current" viewBox="0 0 18 15">
+            <path d="M18 1.484c0 .82-.665 1.484-1.484 1.484H1.484a1.485 1.485 0 010-2.968h15.031C17.335 0 18 .665 18 1.484zM18 7.516C18 8.335 17.335 9 16.516 9H1.484a1.484 1.484 0 010-2.968h15.031A1.484 1.484 0 0118 7.516zM18 13.516c0 .819-.665 1.484-1.484 1.484H1.484a1.484 1.484 0 010-2.968h15.031A1.484 1.484 0 0118 13.516z"/>
+          </svg>
+        </button>
+      </div>
     </div>
-    <nav>
-      <div class="flex items-center justify-center py-4">
+    <nav class="bg-gray-200 md:bg-transparent">
+      <div class="flex flex-col w-full items-end md:flex-row md:items-center md:justify-center py-4">
         <a class="nav-link" href="./">Home</a>
         <a class="nav-link" href="category.html">Business</a>
         <a class="nav-link" href="category.html">Creativity</a>
@@ -272,7 +280,7 @@
           </div>
         </article>
 
-        <div class="flex flex-1 flex-wrap overflow-hidden">
+        <div class="flex flex-1 flex-wrap">
           <article class="flex card-height pb-5 lg:w-1/2 sm:w-full md:w-full pr-4">
             <div class="flex flex-col border border-gray-300 rounded">
               <div class="g-cover bg-center h-full" style="background-image: url('images/post06.jpg')"></div>
