@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   theme: {
     screens: {
@@ -6,11 +8,14 @@ module.exports = {
       md: '768px',
       lg: '1024px',
       xl: '1280px',
-      xxl: '1440px',
+      '2xl': '1440px',
     },
     fontFamily: {
-      slash: ['Ubuntu', 'Gotham Book', 'Source Sans Pro', 'DejaVu Sans Mono', 'sans-serif'],
-      writing: ['FreeSerif', 'sans-serif']
+      logo: ['Merriweather', ...defaultTheme.fontFamily.sans],
+      slash: ['Baloo 2', ...defaultTheme.fontFamily.sans],
+      writing: ['Crimson Text', ...defaultTheme.fontFamily.serif],
+      writing1: ['PT Serif', ...defaultTheme.fontFamily.serif],
+      writing2: ['Playfair Display', ...defaultTheme.fontFamily.serif]
     },
     container: {
       center: true,
@@ -21,7 +26,7 @@ module.exports = {
         md: '1rem',
         lg: '1rem',
         xl: '5rem',
-        xxl: '0',
+        '2xl': '2rem',
       }
     },
   },

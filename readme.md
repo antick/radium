@@ -1,24 +1,15 @@
-# Radium Theme (WIP)
+# Radium Theme
 
 An HTML template inspired by Medium and powered by Tailwind css.
-This is still under heavy development.
 
-## Pages
+## Instructions
 
-1. Home Page
-2. Page 2
-3. Search Page
-4. Category Page
-5. Contact Page
-6. Author Profile Page
-7. Post Detail Page
+Run following command to compile the styles and tailwind config.
+
+`npm run watch`
 
 ## Current Release
 0.6.0 (Work In Progress)
-
-![alt text][radium]
-
-[radium]: https://slashism.com/wp-content/uploads/2020/04/radium.png "Radium Theme"
 
 ## Author
 Pankaj Sanam

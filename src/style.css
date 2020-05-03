@@ -1,10 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
 @tailwind base;
 @tailwind components;
 
 body { @apply font-slash; }
 header { @apply mx-auto py-4 pb-0; }
-.logo { @apply  block text-center text-3xl uppercase font-bold text-gray-800; }
-.nav-link { @apply ml-8 text-xs font-medium uppercase text-gray-500 tracking-wide; }
+.logo {
+  @apply block text-center text-gray-800;
+  @apply font-logo text-3xl uppercase font-bold
+}
+.nav-link { @apply ml-8 text-sm font-medium uppercase text-gray-500 tracking-wide; }
 a.nav-link:hover { @apply text-teal-500; }
 .slider-image { height: 26rem; }
 @screen md {
