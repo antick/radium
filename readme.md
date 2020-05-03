@@ -14,7 +14,7 @@ This is still under heavy development.
 7. Post Detail Page
 
 ## Current Release
-0.5.0 (Work In Progress)
+0.6.0 (Work In Progress)
 
 ![alt text][radium]
 
