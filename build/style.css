@@ -687,6 +687,14 @@ a.nav-link:hover { color: #38b2ac;
 }
 
 @media (min-width: 768px) {
+  /* Set fixed position for top header and adjust main component accordingly */
+
+  main { margin-top: 7.2rem;
+  }
+
+  .fixed-top { background-color: #fff; position: fixed; top: 0; right: 0; left: 0; z-index: 1;
+  }
+
   .nav-link:first-child { margin-left: 0
   }
 
