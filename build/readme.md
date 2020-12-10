@@ -11,10 +11,11 @@ This is still under heavy development.
 4. Category Page
 5. Contact Page
 6. Author Profile Page
-7. Post Detail Page
+7. Author List Page
+8. Post Detail Page
 
 ## Current Release
-0.6.0 (Work In Progress)
+0.7.0 (Work In Progress)
 
 ![alt text][radium]
 
