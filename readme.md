@@ -20,7 +20,7 @@ An HTML template inspired by Medium and powered by Tailwind CSS.
 
 ![alt text][radium]
 
-[radium]: /images/radium.png "Radium Theme"
+[radium]: /build/images/radium.png "Radium Theme"
 
 ## Author
 Pankaj Sanam
