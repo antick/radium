@@ -1,6 +1,6 @@
 {
   "name": "radium",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Radium theme powered by Tailwind CSS",
   "keywords": [
     "radium",
@@ -13,27 +13,26 @@
   "author": {
     "name": "Pankaj Sanam",
     "email": "pankaj@desk.sh",
-    "url": "https://pankajsanam.github.io"
+    "url": "https://slashism.com"
   },
   "license": "MIT",
-  "repository": "https://github.com/pankajsanam/radium",
+  "repository": "https://github.com/antick/radium",
   "scripts": {
-    "watch": "postcss src/style.css -o build/style.css --watch",
-    "build": "tailwind build src/style.css -o build/style.css",
+    "watch": "postcss style.css -o src/style.css --watch",
+    "build": "tailwind build style.css -o src/style.css",
     "lint": "eslint ./ --ignore-path .gitignore",
-    "lint:fix": "npm run lint --fix"
+    "lint:fix": "pnpm run lint --fix"
   },
   "dependencies": {
-    "tailwindcss": "^2.0.1"
+    "tailwindcss": "^3.0.23"
   },
   "devDependencies": {
-    "autoprefixer": "^10.1.0",
-    "eslint": "^7.15.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1",
-    "postcss": "^8.2.13",
-    "postcss-cli": "^8.3.0",
-    "postcss-import": "^13.0.0",
-    "prettier": "^2.2.1"
+    "autoprefixer": "^10.4.4",
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "postcss": "^8.4.12",
+    "postcss-cli": "^9.1.0",
+    "postcss-import": "^14.1.0"
   }
 }
