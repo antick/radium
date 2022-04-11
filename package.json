@@ -19,7 +19,7 @@
   "repository": "https://github.com/antick/radium",
   "scripts": {
     "watch": "postcss style.css -o src/style.css --watch",
-    "build": "tailwind build style.css -o src/style.css",
+    "build": "tailwind -i style.css -o src/style.css",
     "lint": "eslint ./ --ignore-path .gitignore",
     "lint:fix": "pnpm run lint --fix"
   },

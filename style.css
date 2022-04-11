@@ -20,7 +20,7 @@ a.nav-link:hover { @apply text-teal-500; }
 @screen md {
   /* Set fixed position for top header and adjust main component accordingly */
   main { margin-top: 7.2rem; }
-  .fixed-top { @apply bg-white; position: fixed; top: 0; right: 0; left: 0; z-index: 1; }
+  .fixed-top { @apply bg-amber-50; position: fixed; top: 0; right: 0; left: 0; z-index: 1; }
 
   .nav-link:first-child { @apply ml-0 }
   .logo { @apply flex-1; }
