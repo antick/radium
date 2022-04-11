@@ -1,12 +1,12 @@
-# Radium Theme v0.7.0
+# Radium Theme v0.7.1
 
 An HTML template inspired by Medium and powered by Tailwind CSS.
 
 ## Instructions
 
-`npm run build`
+`pnpm run build`
 
-`npm run watch`
+`pnpm run watch`
 
 ## Pages
 
@@ -20,7 +20,7 @@ An HTML template inspired by Medium and powered by Tailwind CSS.
 
 ![alt text][radium]
 
-[radium]: /build/images/radium.png "Radium Theme"
+[radium]: /src/images/radium.png "Radium Theme"
 
 ## Author
 Pankaj Sanam

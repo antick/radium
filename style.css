@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+@tailwind base;
+@tailwind components;
+
+body { @apply font-slash; }
+header { @apply mx-auto py-4 pb-0; }
+.logo {
+  @apply block text-center text-gray-800;
+  @apply font-logo text-3xl uppercase font-bold
+}
+.nav-link { @apply ml-8 text-sm font-medium uppercase text-gray-500 tracking-wide; }
+a.nav-link:hover { @apply text-teal-500; }
+.slider-image { height: 26rem; }
+
+@screen md {
+  /* Set fixed position for top header and adjust main component accordingly */
+  main { margin-top: 7.2rem; }
+  .fixed-top { @apply bg-white; position: fixed; top: 0; right: 0; left: 0; z-index: 1; }
+
+  .nav-link:first-child { @apply ml-0 }
+  .logo { @apply flex-1; }
+  .slider-image { height: 36rem; }
+}
+
+.section-content { @apply flex flex-wrap pt-6 overflow-hidden; }
+.card-height { height: 280px; }
+.card2-height { height: 560px; }
+.card3-height { height: 380px; }
+.section-card-content { @apply flex flex-1 border border-gray-300 rounded; }
+.section-image { @apply bg-cover w-1/2; }
+.post-signature { @apply flex p-4 absolute bottom-0; }
+.post-bookmark { @apply flex p-6 absolute bottom-0 right-0; }
+.full-align { margin-left: calc(51% - 50vw); margin-right: calc(51% - 50vw); width: auto; max-width: 1000%; }
+
+@tailwind utilities;
